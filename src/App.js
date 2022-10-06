@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
      WORK
-        <button onClick={onClose}>Закрыть </button>
     </div>
   );
 }

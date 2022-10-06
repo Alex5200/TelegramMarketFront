@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from "../Button/Button";
+const tg = window.Telegram.WebApp;
 
 const Header = () => {
-    const tg = window.Telegram.WebApp;
     const onClose = () =>{
         tg.close();
     }
