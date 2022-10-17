@@ -12,7 +12,6 @@ const Header = () => {
             <span className={'username'}>
                 Привет @{user?.username}
             </span>
-            <ProductList/>
         </div>
     );
 };
