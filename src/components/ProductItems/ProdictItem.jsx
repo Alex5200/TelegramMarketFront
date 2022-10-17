@@ -1,6 +1,6 @@
 import React from 'react';
-import '../ProductList/ProductList.css';
 import Button from "../Button/Button";
+import './ProductItems.css'
 
 const ProdictItem = ({product, className, onAdd}) => {
     const onAddHandler = () =>{
