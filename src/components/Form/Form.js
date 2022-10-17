@@ -37,15 +37,11 @@ const Form = () => {
             tg.MainButton.show();
         }
     }, [contry, street])
-    const onChangeCountry = (e) =>{
-        setContry(e.target.value)
-    }
-    const onChangesStreet = (e) =>{
-        setStreet(e.target.value)
-    }
-    const onChangeSubject = (e) =>{
-        setSubject(e.target.value)
-    }
+
+    const onChangeCountry = (e) =>{setContry(e.target.value)}
+    const onChangesStreet = (e) =>{setStreet(e.target.value)}
+    const onChangeSubject = (e) =>{setSubject(e.target.value)}
+
     return (
         <div className={"form"}>
             <h3>Ваедите ваши данные</h3>

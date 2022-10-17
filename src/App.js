@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import {useTelegram} from "./hooks/useTelegram";
 import Button from "./components/Button/Button";
 import {Route, Routes} from "react-router-dom";
-import ProdictList from "./components/ProductList/ProdictList";
+import ProdictItem from "./components/ProductItems/ProdictItem";
 import Form from "./components/Form/Form";
 
 
@@ -19,7 +19,7 @@ function App() {
     <div className="App">
         <Header/>
         <Routes>
-            <Route index element={<ProdictList/>}/>
+            <Route index element={<ProdictItem/>}/>
             <Route path={'form'} element={<Form/>}/>
         </Routes>
     </div>
