@@ -52,7 +52,7 @@ const Form = () => {
             <input className={"input"} type="text" placeholder={"Страна"} value={contry} onChange={onChangeCountry}/>
             <input className={"input"} type="text" placeholder={"Улица"} value={street} onChange={onChangesStreet}/>
 
-            <input className={"input"} type="text" placeholder={"Email"} value={email} onChange={onChangeEmail}/>
+            <input className={"input"} type="email" placeholder={"Email"} value={email} onChange={onChangeEmail}/>
 
             <select value={subject} onChange={onChangeSubject} className={"select"}>
                 <option value={"physical"}>Физ. лицо</option>
