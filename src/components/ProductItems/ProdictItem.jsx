@@ -16,6 +16,7 @@ const ProdictItem = ({product, className, onAdd}) => {
                 <span>Стоимость: <b>{product.price}</b></span>
             </div>
             <Button className={'add-button'} onClick={onAddHandler}>
+                
                 Добавить в корзина
             </Button>
         </div>
